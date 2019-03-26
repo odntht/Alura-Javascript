@@ -4,13 +4,6 @@ tituloPagina.textContent = "Aparecida Nutrição";
 
 var pacientes = document.querySelectorAll(".paciente"); //busca todos os dados de todos os pacientes
 
-console.log(pacientes);
-
-console.log(pacientes.length);
-
-console.log(100/2.00);
-
-
 
 for(var i = 0; i < pacientes.length; i++) {
 
@@ -48,8 +41,5 @@ tdImc.textContent = imc.toFixed(2);
 } 
 
 };
-
-
-
 
 
